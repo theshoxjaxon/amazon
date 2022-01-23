@@ -341,6 +341,28 @@ template {
   display: none;
 }
 
+/* mulish-regular - latin */
+@font-face {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/mulish-v7-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/mulish-v7-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/mulish-v7-latin-regular.woff2") format("woff2"), url("../fonts/mulish-v7-latin-regular.woff") format("woff"), url("../fonts/mulish-v7-latin-regular.ttf") format("truetype"), url("../fonts/mulish-v7-latin-regular.svg#Mulish") format("svg");
+  /* Legacy iOS */
+}
+
+/* mulish-700 - latin */
+@font-face {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/mulish-v7-latin-700.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/mulish-v7-latin-700.eot?#iefix") format("embedded-opentype"), url("../fonts/mulish-v7-latin-700.woff2") format("woff2"), url("../fonts/mulish-v7-latin-700.woff") format("woff"), url("../fonts/mulish-v7-latin-700.ttf") format("truetype"), url("../fonts/mulish-v7-latin-700.svg#Mulish") format("svg");
+  /* Legacy iOS */
+}
+
 html {
   height: 100%;
   scroll-behavior: smooth;
