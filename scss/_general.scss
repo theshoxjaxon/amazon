@@ -1,26 +1,31 @@
 html {
- height: 100%;
- scroll-behavior: smooth;
- box-sizing: border-box;
+  height: 100%;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
 }
 
 *,
 *::before,
 *::after {
- box-sizing: inherit;
+  box-sizing: inherit;
 }
 
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
 body {
- display: flex;
- flex-direction: column;
- height: 100%;
- font-family: "Arial", sans-serif;
- font-size: 16px;
- line-height: 1.5;
+  font-family: "Poppins";
 }
 
 img {
- max-width: 100%;
- height: auto;
- vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+.container {
+  width: 1157px;
+  margin: 0px auto;
+  padding: 0px 20px;
 }

@@ -407,24 +407,27 @@ html {
           box-sizing: inherit;
 }
 
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 body {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  height: 100%;
-  font-family: "Arial", sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
+  font-family: "Poppins";
 }
 
 img {
   max-width: 100%;
   height: auto;
   vertical-align: middle;
+}
+
+.container {
+  width: 1157px;
+  margin: 0px auto;
+  padding: 0px 20px;
 }
 
 .visually-hidden {
