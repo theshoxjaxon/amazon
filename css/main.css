@@ -424,12 +424,6 @@ img {
   vertical-align: middle;
 }
 
-.container {
-  width: 1157px;
-  margin: 0px auto;
-  padding: 0px 20px;
-}
-
 .visually-hidden {
   clip: rect(0 0 0 0);
   -webkit-clip-path: inset(50%);
@@ -443,7 +437,7 @@ img {
 
 .container {
   width: 100%;
-  max-width: 1157;
+  max-width: 1157px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -477,6 +471,10 @@ img {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   color: #146eb4;
+}
+
+.site-header {
+  margin-top: 80px;
 }
 
 .header__container {
