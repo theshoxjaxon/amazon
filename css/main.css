@@ -343,24 +343,54 @@ template {
 
 /* mulish-regular - latin */
 @font-face {
-  font-family: "Mulish";
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/mulish-v7-latin-regular.eot");
-  /* IE9 Compat Modes */
-  src: local(""), url("../fonts/mulish-v7-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/mulish-v7-latin-regular.woff2") format("woff2"), url("../fonts/mulish-v7-latin-regular.woff") format("woff"), url("../fonts/mulish-v7-latin-regular.ttf") format("truetype"), url("../fonts/mulish-v7-latin-regular.svg#Mulish") format("svg");
-  /* Legacy iOS */
+  src: url("../fonts/poppins-v15-latin-regular.woff2") format("woff2"), url("../fonts/poppins-v15-latin-regular.woff") format("woff"), url("../fonts/poppins-v15-latin-regular.ttf") format("truetype");
+  /* Safari, Android, iOS */
 }
 
-/* mulish-700 - latin */
+/* poppins-600 - latin */
 @font-face {
-  font-family: "Mulish";
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/poppins-v15-latin-600.woff2") format("woff2"), url("../fonts/poppins-v15-latin-600.woff") format("woff"), url("../fonts/poppins-v15-latin-600.ttf") format("truetype");
+}
+
+/* poppins-700 - latin */
+@font-face {
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/mulish-v7-latin-700.eot");
-  /* IE9 Compat Modes */
-  src: local(""), url("../fonts/mulish-v7-latin-700.eot?#iefix") format("embedded-opentype"), url("../fonts/mulish-v7-latin-700.woff2") format("woff2"), url("../fonts/mulish-v7-latin-700.woff") format("woff"), url("../fonts/mulish-v7-latin-700.ttf") format("truetype"), url("../fonts/mulish-v7-latin-700.svg#Mulish") format("svg");
-  /* Legacy iOS */
+  src: url("../fonts/poppins-v15-latin-700.woff2") format("woff2"), url("../fonts/poppins-v15-latin-700.woff") format("woff"), url("../fonts/poppins-v15-latin-700.ttf") format("truetype");
+}
+
+/* roboto-regular - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/roboto-v29-latin-regular.woff2") format("woff2"), url("../fonts/roboto-v29-latin-regular.woff") format("woff"), url("../fonts/roboto-v29-latin-regular.ttf") format("truetype");
+  /* Safari, Android, iOS */
+}
+
+/* roboto-500 - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  src: local(""), url("../fonts/roboto-v29-latin-500.woff2") format("woff2"), url("../fonts/roboto-v29-latin-500.woff") format("woff"), url("../fonts/roboto-v29-latin-500.ttf") format("truetype");
+  /* Safari, Android, iOS */
+}
+
+/* roboto-700 - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../fonts/roboto-v29-latin-700.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v29-latin-700.woff2") format("woff2"), url("../fonts/roboto-v29-latin-700.woff") format("woff"), url("../fonts/roboto-v29-latin-700.ttf") format("truetype");
+  /* Safari, Android, iOS */
 }
 
 html {
@@ -415,7 +445,82 @@ img {
   padding: 0 20px;
 }
 
+.btn {
+  display: inline-block;
+  margin-top: 16px;
+  margin-left: 12px;
+  border: none;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn:active {
+  opacity: 0.6;
+}
+
+.btn-blue {
+  padding: 9px 15px;
+  background: #146eb4;
+  color: white;
+  margin-left: 0px;
+}
+
+.btn-white {
+  padding: 9px 14px;
+  background-color: transparent;
+  border: 1px solid #146eb4;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #146eb4;
+}
+
+.header__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 12px;
+  padding-left: 56px;
+  padding-bottom: 21px;
+  padding-right: 83px;
+}
+
 .main {
   margin: 0;
+}
+
+.hero__left {
+  width: 445px;
+}
+
+.hero__desc {
+  font-size: 14px;
+  line-height: 16px;
+  margin-bottom: 16px;
+  color: #ff9900;
+}
+
+.hero__head {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+  color: #000000;
+  margin-bottom: 16px;
+}
+
+.hero-desc {
+  font-family: "Roboto";
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.hero__right {
+  margin-left: auto;
 }
 /*# sourceMappingURL=main.css.map */

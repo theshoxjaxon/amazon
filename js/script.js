@@ -1,6 +1,7 @@
 let products = [
   // 1
   {
+    id: 1,
     title: "Leatherly Sofa",
     price: "$1624,95 ",
     category: "Furniture",
@@ -13,6 +14,7 @@ let products = [
   },
   // 2
   {
+    id: 1,
     title: "Wooden Tables",
     price: "$624,95 ",
     category: "Furniture",
@@ -25,6 +27,7 @@ let products = [
   },
   //   3
   {
+    id: 1,
     title: "Advanced Rotak 660",
     price: "$324,95 ",
     category: "Graden",
@@ -37,6 +40,7 @@ let products = [
   },
   //   4
   {
+    id: 1,
     title: "VT-55WX",
     price: "$162,95 ",
     category: "Water Cooler",
@@ -49,6 +53,7 @@ let products = [
   },
   //    5
   {
+    id: 1,
     title: "Leatherly Sofa",
     price: "$624,95 ",
     category: "TV box",
@@ -61,6 +66,7 @@ let products = [
   },
   //  mashrab aka
   {
+    id: 1,
     title: "Redmi Note 9",
     price: "$200",
     category: "Phone",
@@ -74,6 +80,7 @@ let products = [
 
   //Maishiy Texnikalar
   {
+    id: 1,
     title: "Avalon AVL-WM 1610, White",
     price: "$600,95",
     category: "home appliances",
@@ -85,6 +92,7 @@ let products = [
       "Buy Washing machine Avalon AVL-WM 1610, White with delivery In installments without a loan in installments - prices, reviews, specifications, catalog Washing machine",
   },
   {
+    id: 1,
     title: "LG GC-B459SBDZ",
     price: "$800,95",
     category: "home appliances",
@@ -96,6 +104,7 @@ let products = [
       "Buy Refrigerator LG GC-B459SBDZ with delivery. In installments without credit in installments - prices, reviews, specifications, catalog Refrigerator LG GC-B459SBDZ",
   },
   {
+    id: 1,
     title: "Artel VCC0220,",
     price: "$120,95",
     category: "home appliances",
@@ -107,6 +116,7 @@ let products = [
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab veritatis aut quos quam temporibus, magnam eius ducimus libero. Voluptatibus, facilis?",
   },
   {
+    id: 1,
     title: "Samsung MG30T5018AK",
     price: "$100,95",
     category: "home appliances",
@@ -118,6 +128,7 @@ let products = [
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab veritatis aut quos quam temporibus, magnam eius ducimus libero. Voluptatibus, facilis?",
   },
   {
+    id: 1,
     title: "Goodwell GWC 6401 4W",
     price: "$500,95",
     category: "home appliances",
@@ -130,6 +141,7 @@ let products = [
   },
   // tohir aka
   {
+    id: 1,
     title: "Car discs",
     price: "$340,95",
     category: "avto",
@@ -141,6 +153,7 @@ let products = [
       "Buy car disc NewStyle 003 R15 4 pieces at a low price. Payment without credit - on olcha.uz. Tashkent, Tashkent region, Andijan, Bukhara, Jizzakh, Kashkadarya, Navoi, Namangan, Samarkand, Surkhandarya, Syrdarya, Fergana, Khorezm, Karakalpakstan - fast delivery",
   },
   {
+    id: 1,
     title: "Steering wheel for car",
     price: "$180,95",
     category: "avto",
@@ -152,6 +165,7 @@ let products = [
       "Buy steering wheel Mercedes Tiptronic at a low price. Payment without credit",
   },
   {
+    id: 1,
     title: "Car fara",
     price: "$230",
     category: "avto",
@@ -163,6 +177,7 @@ let products = [
       "Buy Chevrolet Malibu 2 taillights at low prices. Credit Free Headlight Chevrolet Malibu 2 term payment, guaranteed.",
   },
   {
+    id: 1,
     title: "Car audio",
     price: "$100",
     category: "avto",
@@ -174,6 +189,7 @@ let products = [
       "Buy Acoustics Pioneer TS-6965V3 at low prices. Credit-free Acoustics Pioneer TS-6965V3 term payment, guaranteed.",
   },
   {
+    id: 1,
     title: "Car Radar",
     price: "$98",
     category: "avto",
@@ -186,6 +202,7 @@ let products = [
   },
   // Alimardon Aka
   {
+    id: 1,
     title: "Happy family",
     price: "$50,95",
     category: "Book",
@@ -197,6 +214,7 @@ let products = [
       " This book provides a complete and detailed explanation of the rules of Islam regarding family relations, and covers all the issues that a Muslim should know about family life.",
   },
   {
+    id: 1,
     title: "The stars are to blame",
     price: "$45,95",
     category: "Book",
@@ -208,6 +226,7 @@ let products = [
       " During adolescence, a person's heart yearns for unconditional love. The protagonists of the play, who are seriously ill, feel it twice as deeply and try to appreciate their lives and enjoy every moment. It is this inner human feeling that follows the reader, the inner meaning that his life will never go back.",
   },
   {
+    id: 1,
     title: "The shield of the believer is a detailed book of fasting",
     price: "$16,95",
     category: "Book",
@@ -219,6 +238,7 @@ let products = [
       " Praise be to Allaah, Who has made fasting one of the fards of Islam, protecting the believers from their sins and mistakes.Greetings to our beloved Prophet Muhammad Mustafa, who taught his ummah all the secrets of fasting and showed infinite love and compassion to his ummah.",
   },
   {
+    id: 1,
     title: "Book of narrations",
     price: "$11,95",
     category: "Book",
@@ -230,6 +250,7 @@ let products = [
       " If this book is useful in the upbringing of children, encourages our children to goodness, kindness, fairness, justice, pure faith, and serves to eliminate their spiritual shortcomings, the musannif will achieve its goal. would have achieved.",
   },
   {
+    id: 1,
     title: "Iman and Khazan",
     price: "$14,95",
     category: "Book",
@@ -242,6 +263,7 @@ let products = [
   },
   //  Jalol aka
   {
+    id: 1,
     title: "Knifes",
     price: "$49.9",
     category: "kitchen appliances",
@@ -253,6 +275,7 @@ let products = [
       "  MRCHEF 5pcs Heavy duty Kitchen Knife set 8 Chefs Knife & 7.5Inch cleaver Pakkawood Handle german stainless steel HRC58",
   },
   {
+    id: 1,
     title: "95L 90 cm 5 Gas Burner",
     price: "$450,95",
     category: "kitchen appliances",
@@ -264,6 +287,7 @@ let products = [
       "Enjoy perfectly grilled food – much faster and more efficiently. The Power Grill Heater is 2-step adjustable to cook different types and quantities of food. The High Grill quickly and evenly cooks big dishes or a large number of items. Or use the Low Grill to cook small amounts and save energy.",
   },
   {
+    id: 1,
     title: "Stand mixer50's Style SMF03RDEU",
     price: "$210,95",
     category: "kitchen appliances",
@@ -275,6 +299,7 @@ let products = [
       "Elegant, functional and eclectic: the Full Color stand mixers are with a brilliant glossy hues for a full colour effect, one of the key distinguishing features of the new product aesthetic. A true explosion of colour that offers a host of potential new style combinations for your kitchen.",
   },
   {
+    id: 1,
     title: "Nutri Ninja",
     price: "$102.99",
     category: "kitchen appliances",
@@ -286,6 +311,7 @@ let products = [
       "Product description,1000-Watt Base,Total Crushing Technology,72 oz. Pitcher and Lid,Stacked Blade Assembly,25-Recipe Inspiration Guide",
   },
   {
+    id: 1,
     title: "Frigidaire Gallery",
     price: "$549,95",
     category: "kitchen appliances",
@@ -298,6 +324,7 @@ let products = [
   },
   //  Sardor Aka
   {
+    id: 1,
     title: "Z Zegna",
     price: "999,9$",
     category: "Coat",
@@ -309,6 +336,7 @@ let products = [
       " Z Zegna's focus on materials and construction is reflected in the design of this double-breasted coat. Crafted from a cashmere and wool blend, this piece boasts a classic silhouette and sophisticated navy blue colourway. Wool-cashmere blend, peak lapels , long sleeves , double-breasted button fastening , two front flap pockets",
   },
   {
+    id: 1,
     title: "Eleventy",
     price: "1199,9$",
     category: "Coat",
@@ -320,6 +348,7 @@ let products = [
       "  Outer: Wool 80%, Polyamide 20% Lining: Acetate 68%, Polyester 32% . camel , wool blend ,notched lapels, front button fastening,long sleeves , two front flap pockets,chest patch pocket ,mid-length",
   },
   {
+    id: 1,
     title: "Z Zegna",
     price: "$1,019",
     category: "Coat",
@@ -331,6 +360,7 @@ let products = [
       "  The model is 1.86 m wearing size 48 (IT/FR), Dry Clean Only, Lining: Viscose 100% Outer: Wool 90%, Cashmere 10%, brown,wool-cashmere blend,peak lapels,double-breasted button,fastening,long sleeves,two front flap pockets,long sleeves,English rear vents,straight hem",
   },
   {
+    id: 1,
     title: "AMI Paris",
     price: "$1,013",
     category: "Coat",
@@ -342,6 +372,7 @@ let products = [
       " When it comes to coats, you've got to bring your A-game. Boasting a midi style and belted waist, this one from AMI Paris will keep you safe and warm while making you look amazing too. Winner, winner, winner. Featuring peaked lapels, a double-breasted front fastening, a belted waist, front flap pockets, long sleeves and a straight hem.",
   },
   {
+    id: 1,
     title: "Jil Sander",
     price: "$6,704",
     category: "Coat",
@@ -354,8 +385,9 @@ let products = [
   },
   // alisher aka
   {
+    id: 1,
     title: "Anex Air-X",
-    price: "349.9$",
+    price: "$349.9",
     category: "baby carriage",
     brand: "ANEX",
     color: "gray",
@@ -365,8 +397,9 @@ let products = [
       "Air-X is a lightweight stroller, that can be easily folded with one hand. It is designed for parents that are always in motion. You can go out, spend time on long walks in the countryside, work and even travel by car or plane. Do what you want with the Air-X.",
   },
   {
+    id: 1,
     title: "Belecoo 3 in 1",
-    price: "475.5$",
+    price: "$475.5",
     category: "baby carriage",
     brand: "BELECOO",
     color: "purple",
@@ -376,8 +409,9 @@ let products = [
       "Belecoo 6 - 3-in-1 Pram stroller makes your outing comfortable and safe with easy to move wheels and strong steel frame. The reversible stroller seat allows the baby to face you when he or she is younger and face forward as they get older. Its easy to fold and compact design is convenient for storage at home during travels.",
   },
   {
+    id: 1,
     title: "Yoga Lite Stroller",
-    price: "382.7$",
+    price: "$382.7",
     category: "baby carriage",
     brand: "TEKNUM",
     color: "Blue",
@@ -387,8 +421,9 @@ let products = [
       "Yoga Lite offers One Second Single Hand Folding/Unfolding and Pushing. It is very easy to fold and unfold within 1 second. The Stroller has special Shock Proof Drive system that is so flexible, smooth and easy to push the Stroller single handed, while making sure for smooth ride and no disturbance even if the baby is asleep.",
   },
   {
+    id: 1,
     title: "Sunny Stroller",
-    price: "317.7$",
+    price: "$317.7",
     category: "baby carriage",
     brand: "HAUCK",
     color: "Black",
@@ -398,8 +433,9 @@ let products = [
       "Sunny - this super light and compact city companion can be used right from birth in lying position or combined with an infant car seat and loaded up to 25 kg. Folded away with one hand only, it fits almost any car boot. This sporty stroller is not only very comfy thanks to backrest and footrest being adjustable into lying position, but also very smooth to drive. The swivelling and lockable front wheels make Sunny very easy to push and steer. In addition, the large canopy with sun blend protects your child against all weathers.",
   },
   {
+    id: 1,
     title: "Belecoo 8 Piano - 4 in 1 ",
-    price: "457.5$",
+    price: "$457.5",
     category: "baby carriage",
     brand: "BELECOO",
     color: "Black White",
@@ -407,6 +443,147 @@ let products = [
     reting: 5,
     summary:
       "All new 2019 model, a whole travel system package is here! 1 pram acts as a stroller and pram. Suitable for a convenient trip. It is designed using the latest technology and 3rd generation PU leather, to give a luxurious texture and quality to the product and a luxurious feeling to your baby. It gives you the satisfaction of using a leather at one fourth the cost of leather.",
+  },
+  // Shukrullo
+  {
+    id: 1,
+    title: "Dyson Supersonic™ ",
+    price: "$548",
+    category: "healthe and beauty",
+    brand: "Dyson",
+    color: "blue, copper",
+    img: "https://srv2.imgonline.com.ua/result_img/imgonline-com-ua-Resize-MtIst6ua00Jn2N.jpg",
+    reting: 9,
+    summary: `Five nozzles for styling. Including a new attachment for unruly hair.
+      Intelligent outgoing air temperature control system.
+      Powerful Dyson V9 digital motor.`,
+  },
+  {
+    id: 1,
+    title: "Dyson Corrale™ Straightener Professional Version",
+    price: "$522",
+    category: "healthe and beauty",
+    brand: "Dyson",
+    color: "Black",
+    img: "https://srv2.imgonline.com.ua/result_img/imgonline-com-ua-Resize-MtIst6ua00Jn2N.jpg",
+    reting: 8.5,
+    summary: `Twice less hair damage. 2
+    To create different styles.
+    Without wire.`,
+  },
+  {
+    id: 1,
+    title: "Eau de toilette for men 8 Element",
+    price: "$20",
+    category: "healthe and beauty",
+    brand: "FABERLIC",
+    color: "Transparent",
+    img: "https://srv4.imgonline.com.ua/result_img/imgonline-com-ua-Resize-1lXMy6xO5f4dv.png",
+    reting: 7.8,
+    summary: `Weight: 90.7 gr., Volume: 100 ml
+    The 8 Element fragrance was created especially for Faberlic by perfumer Janek Kozheliuch.
+    His element is air! For him there are no barriers and obstacles. Its freedom and depth capture and inspire. It gives the feeling of flying! His external coolness is fraught with hidden internal energy, which can burst into flames. His energy is the energy of life itself!`,
+  },
+  {
+    id: 1,
+    title: "Electric toothbrush Oclean Air 2",
+    price: "$39",
+    category: "healthe and beauty",
+    brand: "Mi",
+    color: "pink, blue, white",
+    img: "https://www.imgonline.com.ua/result_img/imgonline-com-ua-Resize-iVZ4boUx9Z.jpg",
+    reting: 8.3,
+    summary: `Nutrition
+    Battery capacity
+    800 mAh
+    Working time (min)
+    57600
+    Charging time (min)
+    150
+    Power consumption (W)
+    2.5`,
+  },
+  {
+    id: 1,
+    title: "Chanel Paris - Riviera",
+    price: "$157",
+    category: "healthe and beauty",
+    brand: "Chanel",
+    color: "Transparent",
+    img: "https://srv4.imgonline.com.ua/result_img/imgonline-com-ua-Resize-CouQk3SoGCUxy.jpg",
+    reting: 9.1,
+    summary: `Made in France
+    Trade house: Chanel
+    Perfumer: Olivier Polge
+    Year of creation: 2019
+    Purpose: unisex
+    Type: eau de toilette
+    Families: floral, fruity
+    Fragrance notes: orange peel, floral notes, citruses, neroli, jasmine, benzoin, sandalwood`,
+  },
+  // muhammad rizo
+  {
+    id: 1,
+    title: "Jazwares Roblox",
+    price: "$12",
+    category: "toys",
+    brand: "Roblox",
+    color: "blue",
+    img: "https://i.ibb.co/HXMLf4y/toy1.jpg",
+    reting: 7.8,
+    summary:
+      "Buy Game collectible figure Jazwares Roblox Core Figures Shred: Snowboard Boy W6 (ROB0202) Installment without installment loan - prices, reviews, specifications, catalog Jazwares Roblox Core Figures Shred: Snowboard Boy W6 (ROB0202)",
+  },
+
+  {
+    id: 1,
+    title: "Auldey Infinity",
+    price: "$16",
+    category: "toys",
+    brand: "Holy Whisker",
+    color: "green",
+    img: "https://i.ibb.co/vkh1ZR0/toy2.jpg",
+    reting: 9.0,
+    summary:
+      "Buy Top with launcher Auldey Infinity Nado Series Standard Holy Whisker (YW624301) with delivery in Tashkent, Tashkent region, Andijan, Bukhara, Jizzakh, Kashkadarya, Navoiy, Namangan, Samarkand, Surkhandarya, Syrdarya, Fergana, Khorezm, Karakalpakstan. Installment without installment loan - prices, reviews, specifications, catalog Auldey Infinity Nado Starter Spinning Top Holy Whisker Standard Series (YW624301)",
+  },
+
+  {
+    id: 1,
+    title: "Twister car",
+    price: "$99.9",
+    category: "toys",
+    brand: "Twister",
+    color: "blue",
+    img: "https://i.ibb.co/1G2L588/toy3.jpg",
+    reting: 8.0,
+    summary: "Twister car for children, 2.4 GHz, with remote control",
+  },
+
+  {
+    id: 1,
+    title: "AUDI A8",
+    price: "$120",
+    category: "toys",
+    brand: "DuDu cars",
+    color: "blue",
+    img: "https://i.ibb.co/wprGm0D/toy4.jpg",
+    reting: 9.4,
+    summary:
+      "AUDI A8 Alloy Car Model Diecast & Toy Car Model Metal Toy Car Model High Model with Sound Light Toy Collection for Children Gift 1/32",
+  },
+
+  {
+    id: 1,
+    title: "King Kong",
+    price: "$9.99",
+    category: "toys",
+    brand: "Kong",
+    color: "black",
+    img: "https://i.ibb.co/0Cx8CDh/toy5.jpg",
+    reting: 7.0,
+    summary:
+      "King Kong Action Figures Toys Godzilla Action Figure Kingkong Action Figure Collectible Model Toy Christmas Gift",
   },
 ];
 // Rasimlar 200x200 bo'liwi wart
