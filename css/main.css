@@ -474,10 +474,83 @@ img {
 }
 
 .site-header {
-  margin-top: 80px;
+  position: relative;
 }
 
-.header__container {
+.site-header__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.site-header__hamburger-menu {
+  margin-left: -152px;
+  padding: 38px 50px;
+  max-width: 132px;
+  background-color: #232f3e;
+}
+
+.site-header__logo-img {
+  margin-left: 47px;
+}
+
+.site-header__form {
+  margin-left: 48px;
+}
+
+.site-header__site-header__select {
+  padding: 15px 0;
+  height: 48px;
+  width: 200px;
+  border-color: transparent;
+  background-color: rgba(242, 242, 242, 0.48);
+}
+
+.site-header__input {
+  padding: 15px;
+  width: 550px;
+  border-color: transparent;
+  font-size: 14px;
+  background-color: rgba(242, 242, 242, 0.48);
+  background-image: url("../../images/lupa.png");
+  background-repeat: no-repeat;
+  background-position: center right 14px;
+}
+
+.site-header__icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 68px;
+}
+
+.site-header__heart-icon {
+  margin-right: 33px;
+}
+
+.site-header__shopping-bag {
+  margin-right: 40px;
+}
+
+.site-header__btn {
+  padding: 12px 32px;
+  margin-left: auto;
+  border-color: transparent;
+  background-color: #232f3e;
+  color: white;
+}
+
+.main {
+  margin: 0;
+}
+
+.hero__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -488,10 +561,7 @@ img {
   padding-left: 56px;
   padding-bottom: 21px;
   padding-right: 83px;
-}
-
-.main {
-  margin: 0;
+  background: rgba(242, 242, 242, 0.4);
 }
 
 .hero__left {

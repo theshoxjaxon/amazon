@@ -1,12 +1,55 @@
 // Header stillar
 .site-header {
-  margin-top: 80px;
-}
-.header__container {
-  display: flex;
-  align-items: center;
-  padding-top: 12px;
-  padding-left: 56px;
-  padding-bottom: 21px;
-  padding-right: 83px;
+  position: relative;
+  &__container {
+    display: flex;
+    align-items: center;
+  }
+  &__hamburger-menu {
+    margin-left: -152px;
+    padding: 38px 50px;
+    max-width: 132px;
+    background-color: $color-darkblue;
+  }
+  &__logo-img {
+    margin-left: 47px;
+  }
+  &__form {
+    margin-left: 48px;
+  }
+  &__site-header__select {
+    padding: 15px 0;
+    height: 48px;
+    width: 200px;
+    border-color: transparent;
+    background-color: rgba(242, 242, 242, 0.48);
+  }
+  &__input {
+    padding: 15px;
+    width: 550px;
+    border-color: transparent;
+    font-size: 14px;
+    background-color: rgba(242, 242, 242, 0.48);
+    background-image: url("../../images/lupa.png");
+    background-repeat: no-repeat;
+    background-position: center right 14px;
+  }
+  &__icons {
+    display: flex;
+    align-items: center;
+    margin-left: 68px;
+  }
+  &__heart-icon {
+    margin-right: 33px;
+  }
+  &__shopping-bag {
+    margin-right: 40px;
+  }
+  &__btn {
+    padding: 12px 32px;
+    margin-left: auto;
+    border-color: transparent;
+    background-color: $color-darkblue;
+    color: white;
+  }
 }
