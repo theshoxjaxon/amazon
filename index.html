@@ -9,31 +9,76 @@
   </head>
   <body>
     <header class="site-header">
-      <div class="container header__container">
-        <div class="hero__left">
-          <p class="hero__desc">SONY WH-H910N</p>
-          <h1 class="hero__head">Best in Hi-Res and Noise Cancelling</h1>
-          <p class="hero-desc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc, est
-            enim mauris dolor ultrices mi ipsum risus. Adipiscing consequat,
-            bibendum fringilla dolor ornare. Turpis sit egestas condimentum
-            tincidunt lobortis donec massa ultricies. Urna, cursus eleifend
-            neque ut nibh est.
-          </p>
-          <button class="btn btn-blue">Buy now for $129</button>
-          <button class="btn btn-white">Learn more</button>
-        </div>
-        <div class="hero__right">
+      <div class="container site-header__container">
+        <div class="site-header__hamburger-menu">
           <img
-            class="secrion__right-img"
-            src="./images/Group 4.png"
-            alt="Section image on this img with headphones"
-            width="417"
-            height="417"
+            src="./images/hamburger-menu.svg"
+            alt="hamburger menu for mobile device"
+            width="32"
+            height="32"
           />
         </div>
+        <img
+          class="site-header__logo-img"
+          src="./images/amazon-logo.svg"
+          alt="site logo"
+          width="106"
+          height="32"
+        />
+        <form class="site-header__form">
+          <select class="site-header__select" name="goods">
+            <option value="all" selected disabled>All</option>
+          </select>
+          <input
+            class="site-header__input"
+            type="text"
+            placeholder="Search Mobiles, TV, Laptops,Tablets, Beauty & Personal Care etc."
+          />
+        </form>
+        <div class="site-header__icons">
+          <img
+            class="site-header__heart-icon"
+            src="./images/bi_heart.png"
+            alt=""
+          />
+          <img
+            class="site-header__shopping-bag"
+            src="./images/iconoir_shopping-bag.png"
+            alt=""
+          />
+          <img src="./images/location.png" alt="" />
+        </div>
+        <!-- <button class="site-header__btn">Login</button> -->
       </div>
     </header>
+    <main>
+      <section class="hero site-hero">
+        <div class="container hero__container">
+          <div class="hero__left">
+            <p class="hero__desc">SONY WH-H910N</p>
+            <h1 class="hero__head">Best in Hi-Res and Noise Cancelling</h1>
+            <p class="hero-desc">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc, est
+              enim mauris dolor ultrices mi ipsum risus. Adipiscing consequat,
+              bibendum fringilla dolor ornare. Turpis sit egestas condimentum
+              tincidunt lobortis donec massa ultricies. Urna, cursus eleifend
+              neque ut nibh est.
+            </p>
+            <button class="btn btn-blue">Buy now for $129</button>
+            <button class="btn btn-white">Learn more</button>
+          </div>
+          <div class="hero__right">
+            <img
+              class="secrion__right-img"
+              src="./images/Group 4.png"
+              alt="Section image on this img with headphones"
+              width="417"
+              height="417"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
     <script src="./js/cartoons.js"></script>
     <script src="./js/script.js"></script>
   </body>
