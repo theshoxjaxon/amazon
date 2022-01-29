@@ -1,0 +1,53 @@
+// /////////////////////////////////////////////8888888888888888***************
+// .cards {
+//   font-family: "Roboto";
+// }
+
+.cards__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  list-style: none;
+}
+
+.cards__title {
+  font-family: "Roboto";
+  font-size: 24px;
+  line-height: 28px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 28px;
+}
+
+.cards__item {
+  //   border: 1px solid red;
+  background-color: #f9f9f9;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  width: 100px;
+  padding: 39px 18px;
+  transition: 0.3s;
+
+  &:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: #fff;
+  }
+}
+
+.cards__item-link {
+  text-decoration: none;
+}
+
+.cards__item-img {
+  margin-bottom: 2px;
+}
+
+.cards__item-title {
+  font-family: "Roboto";
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+  color: #232f3e;
+  margin: 0;
+  padding: 0;
+}
