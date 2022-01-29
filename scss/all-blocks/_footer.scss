@@ -1,1 +1,68 @@
 // Footer stillar
+.best-skels {
+    margin-top: 100px;
+    &__list {
+        margin: 0 -10px;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        list-style: none;
+    }
+    &__item {
+        margin: 0px 10px;
+        display: flex;
+        // align-items: center;
+        flex-direction: column;
+        padding: 38px 16px 24px;
+        width: 279px;
+        background: rgba(242, 242, 242, 0.4);
+        transition: all 1s;
+    }
+    &__item:hover {
+        background-color: white;
+        transform: scale(1.05);
+        box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+    }
+    &__item:hover &__button {
+        opacity: 1;
+    }
+    &__item:hover &__button-2 {
+        opacity: 1;
+    }
+    &__img {
+        margin-bottom: 46px;
+    }
+    &__desc {
+        margin-bottom: 8px;
+    }
+    &__heading {
+        margin-bottom: 8px;
+    }
+    &__span-box {
+        margin-bottom: 18px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__button-box {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__button {
+        white-space: nowrap;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+        padding: 9px 27px;
+        opacity: 0;
+        cursor: pointer;
+    }
+    &__button-2 {
+        white-space: nowrap;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+        padding: 9px 27px;
+        opacity: 0;
+        cursor: pointer;
+    }
+}
