@@ -28,6 +28,7 @@
   // }
   &__input {
     padding: 15px;
+
     width: 550px;
     border-color: transparent;
     font-size: 14px;
@@ -76,4 +77,9 @@
 }
 .site-header__select:active {
   opacity: 0.6;
+}
+@media only screen and (max-width: 680px) {
+  .site-header {
+    background-color: lightblue;
+  }
 }

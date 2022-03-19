@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAIG,AAAD,gBAAU,CAAC;EACT,SAAS,EAAE,iCAAiC;EAC5C,MAAM,EALD,GAAG,CAAC,KAAK,CAAC,IAAI;EAMnB,iBAAiB,EAAE,WAAW;EAC9B,aAAa,EAAE,GAAG;EAClB,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,MAAM;EACf,OAAO,EAAE,YAAY;EACrB,MAAM,EAZH,IAAI;EAaP,IAAI,EAAE,CAAC;EACP,MAAM,EAAE,IAAI;EACZ,QAAQ,EAAE,QAAQ;EAClB,KAAK,EAAE,CAAC;EACR,GAAG,EAAE,CAAC;EACN,KAAK,EAlBF,IAAI;CAmBR",
+    "sources": [
+        "../splide-3.6.12/src/css/core/object/objects/spinner.scss"
+    ],
+    "names": [],
+    "file": "spinner.css"
+}

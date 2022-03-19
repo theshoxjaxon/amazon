@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,UAAU,CAAV,cAAU;EACR,EAAE;IACA,SAAS,EAAE,UAAY;;EAGzB,IAAI;IACF,SAAS,EAAE,eAAiB",
+    "sources": [
+        "../splide-3.6.12/src/css/core/foundation/animations.scss"
+    ],
+    "names": [],
+    "file": "animations.css"
+}

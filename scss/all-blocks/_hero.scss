@@ -31,5 +31,21 @@
   line-height: 20px;
 }
 .hero__right {
+  display: flex;
+  flex-shrink: 0;
   margin-left: auto;
+}
+.secrion__right-img {
+  flex-shrink: 0;
+}
+.hamburger-menyu {
+  display: none;
+}
+@media only screen and (max-width: 680px) {
+  .hamburger-menyu {
+    display: block;
+  }
+  .site-header__icons {
+    display: none;
+  }
 }

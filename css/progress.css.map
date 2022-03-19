@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAEK,AAAD,sBAAM,CAAC;EACL,KAAK,EAAE,CAAC;CACT",
+    "sources": [
+        "../splide-3.6.12/src/css/core/object/objects/progress.scss"
+    ],
+    "names": [],
+    "file": "progress.css"
+}

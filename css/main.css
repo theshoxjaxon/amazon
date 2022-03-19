@@ -564,6 +564,12 @@ img {
   opacity: 0.6;
 }
 
+@media only screen and (max-width: 680px) {
+  .site-header {
+    background-color: lightblue;
+  }
+}
+
 .main {
   margin: 0;
 }
@@ -610,7 +616,30 @@ img {
 }
 
 .hero__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
   margin-left: auto;
+}
+
+.secrion__right-img {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.hamburger-menyu {
+  display: none;
+}
+
+@media only screen and (max-width: 680px) {
+  .hamburger-menyu {
+    display: block;
+  }
+  .site-header__icons {
+    display: none;
+  }
 }
 
 .cards__list {
@@ -644,7 +673,10 @@ img {
   -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
           box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   width: 100px;
-  padding: 39px 18px;
+  padding: 39px 19px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
